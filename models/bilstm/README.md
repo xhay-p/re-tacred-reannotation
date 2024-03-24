@@ -25,7 +25,7 @@ This will write vocabulary and word vectors as a numpy matrix into the dir `data
 
 Train an BiLSTM model with:
 ```
-python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --no-attn --id 01 --info "LSTM model"
+python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --no-attn --id 01 --info "BiLSTM model"
 ```
 
 Model checkpoints and logs will be saved to `./saved_models/00`.
@@ -39,9 +39,9 @@ python eval.py saved_models/00 --dataset test
 
 This will use the `best_model.pt` by default. Use `--model checkpoint_epoch_10.pt` to specify a model checkpoint file. Add `--out saved_models/out/test1.pkl` to write model probability output to files (for ensemble, etc.).
 
-## Ensemble
+## Related Repo
 
-Please see the example script `ensemble.sh`.
+The code is derived from the paper position-aware attention LSTM (PA-LSTM) model for relation extraction. Please refer to [this repo](https://github.com/yuhaozhang/tacred-relation).
 
 ## License
 
