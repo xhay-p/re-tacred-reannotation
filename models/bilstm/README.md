@@ -1,9 +1,5 @@
-Position-aware Attention RNN Model for Relation Extraction
+Bi-LSTM Model for Relation Extraction
 =========================
-
-This repo contains the *PyTorch* code for paper [Position-aware Attention and Supervised Data Improve Slot Filling](https://nlp.stanford.edu/pubs/zhang2017tacred.pdf).
-
-**The TACRED dataset**: Details on the TAC Relation Extraction Dataset can be found on [this dataset website](https://nlp.stanford.edu/projects/tacred/).
 
 ## Requirements
 
@@ -34,7 +30,7 @@ python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --id 00 --in
 
 Use `--topn N` to finetune the top N word vectors only. The script will do the preprocessing automatically (word dropout, entity masking, etc.).
 
-Train an LSTM model with:
+Train an BiLSTM model with:
 ```
 python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --no-attn --id 01 --info "LSTM model"
 ```

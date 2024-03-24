@@ -1,14 +1,6 @@
 Graph Convolution over Pruned Dependency Trees for Relation Extraction
 ==========
 
-This repo contains the *PyTorch* code for the paper [Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](https://nlp.stanford.edu/pubs/zhang2018graph.pdf). 
-
-This paper/code introduces a graph convolutional neural network (GCN) over pruned dependency trees for the task of relation extraction. A special tree pruning technique called the Path-centric Pruning is also introduced to eliminate irrelevant information from the trees while maximally maintaining relevant information. Compared to sequence models such as various LSTM-based models, this GCN model makes use of dependency structures to bridge remote words, therefore improves performance for long-range relations. Compared to previous recursive models such as the TreeLSTM, this GCN model achieves better performance while being much eariser to parallelize and therefore much more efficient.
-
-See below for an overview of the model architecture:
-
-![GCN Architecture](fig/architecture.png "GCN Architecture")
-
 ## Requirements
 
 - Python 3 (tested on 3.6.5)
