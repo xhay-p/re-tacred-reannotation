@@ -21,11 +21,7 @@ Title of Thesis : Understanding and Mitigation of Noise in Crowd Sourced Relatio
 Name of the Researcher : Parekh, Akshay
 Name of the Guide : Awekar, Amit and Anand, Ashish
 Completed Year : 2023
-Abstract : Relation classification (RC), a task of classifying the relation between a given pair of entities in a sentence to a relation
-newlinelabel is fundamental to IE systems. The identified structured triple (subject_entity, relation, object_entity) from the
-newlineunstructured text can vastly help in knowledge base completion. This organized relational knowledge can further be
-newlineused for other downstream tasks like question-answering, and common-sense reasoning. A large RC dataset TACRED
-newlinehas been widely used for benchmarking modern deep neural models. However, RC at a large scale is restricted mainly due to the presence of noise in the training dataset. Hence, the performance of such advanced deep neural models, which have shown excellent improvement on other NLP tasks, has been held back for RC.
+Abstract : Relation classification (RC), a task of classifying the relation between a given pair of entities in a sentence to a relation label is fundamental to IE systems. The identified structured triple (subject_entity, relation, object_entity) from the unstructured text can vastly help in knowledge base completion. This organized relational knowledge can further be used for other downstream tasks like question-answering, and common-sense reasoning. A large RC dataset TACRED has been widely used for benchmarking modern deep neural models. However, RC at a large scale is restricted mainly due to the presence of noise in the training dataset. Hence, the performance of such advanced deep neural models, which have shown excellent improvement on other NLP tasks, has been held back for RC.
 Name of the Department : Department of Computer Science and Engineering
 Name of the University : Indian Institute of Technology Guwahati }
 ```
