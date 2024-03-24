@@ -10,7 +10,7 @@ Graph Convolution over Pruned Dependency Trees for Relation Extraction
 
 ## Preparation
 
-The code requires that you have access to the TACRED dataset (LDC license required). The TACRED dataset is currently scheduled for public release via LDC in December 2018. For possible early access to this data please contact `yuhao.zhang ~at~ stanford.edu`. Once you have the TACRED data, please put the JSON files under the directory `dataset/tacred`. 
+The code requires that you have access to the TACRED dataset (LDC license required). For possible early access to this data please contact `yuhao.zhang ~at~ stanford.edu`. Once you have the TACRED data, please put the JSON files under the directory `dataset/tacred`. 
 
 First, download and unzip GloVe vectors from the Stanford NLP group website, with:
 ```
