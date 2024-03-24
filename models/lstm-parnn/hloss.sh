@@ -1,1 +1,0 @@
-python train.py --data_dir ./../dataset/tacred/json --vocab_dir ./../dataset/tacred/vocab --id hl-parnn --info "Position-aware attention model" --hier_dist
