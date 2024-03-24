@@ -23,13 +23,6 @@ This will write vocabulary and word vectors as a numpy matrix into the dir `data
 
 ## Training
 
-Train a position-aware attention RNN model with:
-```
-python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --id 00 --info "Position-aware attention model"
-```
-
-Use `--topn N` to finetune the top N word vectors only. The script will do the preprocessing automatically (word dropout, entity masking, etc.).
-
 Train an BiLSTM model with:
 ```
 python train.py --data_dir dataset/tacred --vocab_dir dataset/vocab --no-attn --id 01 --info "LSTM model"
