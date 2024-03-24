@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train_tacred.py", line 182, in <module>
+    main()
+  File "train_tacred.py", line 162, in main
+    train_features = processor.read(train_file)
+  File "/home/akshay/re_rc/RE_improved_baseline/prepro.py", line 140, in read
+    with open(file_in, "r") as fh:
+FileNotFoundError: [Errno 2] No such file or directory: './data/tacred/train.json'

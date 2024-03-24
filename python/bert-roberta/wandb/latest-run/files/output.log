@@ -1,0 +1,11 @@
+Some weights of the model checkpoint at /home/akshay/pretrained_bert/bert-base-cased were not used when initializing BertModel: ['embeddings.position_ids']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "train_tacred.py", line 182, in <module>
+    main()
+  File "train_tacred.py", line 162, in main
+    train_features = processor.read(train_file)
+  File "/home/akshay/re_rc/RE_improved_baseline/prepro.py", line 140, in read
+    with open(file_in, "r") as fh:
+FileNotFoundError: [Errno 2] No such file or directory: './data/tacred/train.json'

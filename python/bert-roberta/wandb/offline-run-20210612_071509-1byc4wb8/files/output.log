@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/akshay/pyTorch-env/lib/python3.6/site-packages/transformers/configuration_utils.py", line 242, in get_config_dict
+    raise EnvironmentError
+OSError
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train_tacred.py", line 182, in <module>
+    main()
+  File "train_tacred.py", line 145, in main
+    num_labels=args.num_class,
+  File "/home/akshay/pyTorch-env/lib/python3.6/site-packages/transformers/configuration_auto.py", line 203, in from_pretrained
+    config_dict, _ = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/akshay/pyTorch-env/lib/python3.6/site-packages/transformers/configuration_utils.py", line 251, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for 'bert-large-cased'. Make sure that:
+- 'bert-large-cased' is a correct model identifier listed on 'https://huggingface.co/models'
+- or 'bert-large-cased' is the correct path to a directory containing a config.json file
