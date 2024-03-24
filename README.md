@@ -13,7 +13,7 @@ In our *third* and final contribution, we utilize relation hierarchy for budget-
 
 ## References
 
-1. (Parekh, Akshay, Ashish Anand, and Amit Awekar. "Improving Relation Classification Using Relation Hierarchy." International Conference on Applications of Natural Language to Information Systems. Cham: Springer International Publishing, 2022.) [https://link.springer.com/chapter/10.1007/978-3-031-08473-7_29]
+1. [Parekh, Akshay, Ashish Anand, and Amit Awekar. "Improving Relation Classification Using Relation Hierarchy." International Conference on Applications of Natural Language to Information Systems. Cham: Springer International Publishing, 2022.] (https://link.springer.com/chapter/10.1007/978-3-031-08473-7_29)
 
 ## Citation
 ```
