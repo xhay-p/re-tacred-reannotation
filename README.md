@@ -15,6 +15,12 @@ In our *third* and final contribution, we utilize relation hierarchy for budget-
 
 1. Parekh, Akshay, Ashish Anand, and Amit Awekar. "Improving Relation Classification Using Relation Hierarchy." International Conference on Applications of Natural Language to Information Systems. Cham: Springer International Publishing, 2022. [link](https://link.springer.com/chapter/10.1007/978-3-031-08473-7_29)
 
+2. Parekh, Akshay, Ashish Anand, and Amit Awekar. "Noise in Relation Classification Dataset TACRED: Characterization and Reduction." arXiv preprint arXiv:2311.12298 (2023). [link](https://arxiv.org/abs/2311.12298)
+
+3. Parekh, Akshay, Ashish Anand, and Amit Awekar. "Budget Sensitive Reannotation of Noisy Relation Classification Data Using Label Hierarchy." arXiv preprint arXiv:2112.13320 (2021). [link](https://arxiv.org/abs/2112.13320)
+
+4. Akshay Parekh, Ashish Anand, and Amit Awekar. 2023. Relation Classification Model Performance as a Function of Dataset Label Noise. In Proceedings of the 6th Joint International Conference on Data Science & Management of Data (10th ACM IKDD CODS and 28th COMAD) (CODS-COMAD '23). Association for Computing Machinery, New York, NY, USA, 139. [link](https://dl.acm.org/doi/abs/10.1145/3570991.3571055)
+
 ## Citation
 ```
 { link : http://hdl.handle.net/10603/459884
